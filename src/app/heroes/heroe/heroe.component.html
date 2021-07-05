@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h1>Heroe Component</h1>
+
+<dl>
+  <td>Nombre:</td>
+  <dd>{{nombre}}</dd>
+
+  <td>Edad:</td>
+  <dd>{{edad}}</dd>
+
+  <td>Capitalizado:</td>
+  <dd>{{nombreCapitalizado}}</dd>
+
+  <td>Datos generales:</td>
+  <dd>{{obtenerNombre()}}</dd>
+
+  <button (click)="cambiarNombre()">
+    Cambiar nombre
+  </button>
+  <button (click)="cambiarEdad()">
+    Cambiar edad
+  </button>
+</dl>
+</body>
+</html>
